@@ -1,5 +1,5 @@
 {% set name = "shibuya" %}
-{% set version = "2025.4.25" %}
+{% set version = "2025.5.30" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/shibuya-{{ version }}.tar.gz
-  sha256: 398b4541c270709b726f1745178a69ee6a949ad6e582f2ed27240859ee038f8d
+  sha256: 6ee0ca3af30d61ba240abe212b0ded21dc7542cf050c11ace7a28df9251171ae
 
 build:
   noarch: python
